@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    {% extends "AppSanta/padre.html" %}
+
+    {% load static %}
+
+    {% block contenidoQueCambia %}
+    <h1>PRODUCTOS SANTA INES</h1>
+
+
+    <!-- Content section 1-->
+    <section id="scroll">
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6 order-lg-2 ">
+                    <div class="p-5"><img class="img-fluid rounded-rectangle"
+                            src="{% static '/appsanta/assets/img/portfolio/fullsize/CORTADOS (4).jpg' %}" alt="..." />
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="p-5">
+                        <h2 class="display-4">Jamón Crudo Tradicional</h2>
+                        <p>Es un producto de calidad premium, desarrollado a través de un proceso de un proceso de produción convencional.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Content section 2-->
+    <section>
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6 ">
+                    <div class="p-5"><img class="img-fluid rounded-rectangle"
+                            src="{% static '/appsanta/assets/img/portfolio/fullsize/CORTADOS (7).jpg' %}" alt="..." />
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="p-5">
+                        <h2 class="display-4">Jamón Crudo Reducido en Sodio</h2>
+                        <p>Es un producto de alta calidad,desarrollado a través de un proceso de producción innovador, logrando una reduccion en sodio y un sabor único.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    <!-- Content section 3-->
+    <section>
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6 order-lg-2 ">
+                    <div class="p-5"><img class="img-fluid rounded-rectangle"
+                            src="{% static '/appsanta/assets/img/portfolio/fullsize/FABRICA (16).jpg' %}" alt="..." />
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="p-5">
+                        <h2 class="display-4">Bondiola</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam
+                            sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione
+                            voluptatum molestiae adipisci, beatae obcaecati.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Content section 4-->
+    <section>
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6 ">
+                    <div class="p-5"><img class="img-fluid rounded-rectangle"
+                            src="{% static '/appsanta/assets/img/portfolio/fullsize/FABRICA (17).jpg' %}" alt="..." />
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="p-5">
+                        <h2 class="display-4">Panceta</h2>
+                        <p>Producto resultante de un proceso de producción convencional, con dos presentaciones: en plancha y arrollada.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Content section 5-->
+    <section>
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6 order-lg-2 ">
+                    <div class="p-5"><img class="img-fluid rounded-rectangle"
+                            src="{% static '/appsanta/assets/img/portfolio/fullsize/PRODUCTOS CERRADOS (9).jpg' %}"
+                            alt="..." /></div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="p-5">
+                        <h2 class="display-4">Lomito</h2>
+                        <p>Es un producto de alta calidad, desarrollado a través de un procesod e producción natural, sin aditivos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Content section 6-->
+    <section>
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6 ">
+                    <div class="p-5"><img class="img-fluid rounded-rectangle"
+                            src="{% static '/appsanta/assets/img/portfolio/fullsize/PICADA.jpg' %}"
+                            alt="..." /></div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="p-5">
+                        <h2 class="display-4">Picadas</h2>
+                        <p>El permitido. No sabés cual elegir? LLevate un poquito de todos, y a disfrutar!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    {% endblock %}
+
+</body>
+
+</html>

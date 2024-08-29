@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultadobusqueda</title>
+</head>
+<body>
+    <p>Estamos buscando el: {{ cantidad }}</p>
+{% if productos %}
+<ul>
+{% for producto in productos %}
+    <li> {{producto.nombre}}</li>
+    <li> {{producto.cantidad}}</li>
+{% endfor %}
+<ul>
+{% endif %}
+
+</body>
+</html>

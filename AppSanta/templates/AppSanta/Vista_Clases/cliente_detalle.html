@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% extends "AppSanta/padre.html"%}
+    {% load static %}
+    {% block contenidoquecambia %}
+    <h1>Cliente Detalle</h1>
+
+    <p>Nombre del Cliente: <i>{{cliente.nombre}}</i></p>
+    <p>Cantidad:<i>{{cliente.cantidad}}</i></p>
+    <p>
+        <a href= "{% url 'ListaCliente' %}"> Regresar</a>"
+    </p>
+    {% endblock contenidoquecambia %}
+</body>
+</html>

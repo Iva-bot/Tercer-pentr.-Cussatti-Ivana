@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<body>
+    {% extends "AppSanta/padre.html"%}
+    {% load static %}
+    {% block contenidoquecambia %}
+    <h1>Editar Cliente</h1>
+
+    <form action=""method="POST">
+          {% csrf_token%}
+          {{form.ar_p}}
+          <input type="submit" value="Editar">
+    </form>
+    {% endblock contenidoquecambia %}
+    
+</body>
+</html>
